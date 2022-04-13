@@ -1,6 +1,7 @@
-# Arquivo de exemplo de configuração de interface de rede Debian GNU/Linux 11 (bullseye)
+# Arquivo de exemplo de configuração de interface de rede IP fixo Debian GNU/Linux 11 (bullseye)
 
-Edite o arquivo `/etc/network/interfaces` e adeque-o ao seu ambiente.
+Edite o arquivo `/etc/network/interfaces` e adeque-o ao seu ambiente.  
+Para configurar a interface como DHCP, descomente a linha `#iface ens33 inet dhcp` e todas abaixo dela.  
 
 ```
 # This file describes the network interfaces available on your system
