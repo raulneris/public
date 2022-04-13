@@ -36,3 +36,6 @@ gateway 192.168.196.2
 # name server
 dns-nameservers 8.8.8.8 8.8.4.4
 ```
+
+Referências:  
+https://www.lest5.com.br/lest/index.php/redes/comandos-redes/configurar-uma-rede-linux-via-terminal
