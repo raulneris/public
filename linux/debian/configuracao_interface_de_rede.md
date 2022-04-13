@@ -1,4 +1,4 @@
-# Arquivo de exemplo de configuração de interface de rede
+# Arquivo de exemplo de configuração de interface de rede Debian GNU/Linux 11 (bullseye)
 
 Edite o arquivo `/etc/network/interfaces`
 
