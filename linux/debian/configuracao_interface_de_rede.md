@@ -1,6 +1,6 @@
 # Arquivo de exemplo de configuração de interface de rede Debian GNU/Linux 11 (bullseye)
 
-Edite o arquivo `/etc/network/interfaces`
+Edite o arquivo `/etc/network/interfaces` e adeque-o ao seu ambiente.
 
 ```
 # This file describes the network interfaces available on your system
