@@ -18,7 +18,7 @@ auto ens33
 allow-hotplug ens33
 
 # add dhcp seettings
-#iface enp1s0 inet dhcp
+#iface ens33 inet dhcp
 
 # add static settings
 iface ens33 inet static
