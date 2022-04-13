@@ -4,7 +4,6 @@ Edite o arquivo `/etc/network/interfaces` e adeque-o ao seu ambiente.
 
 ```
 # This file describes the network interfaces available on your system
-# and how to activate them. For more information, see interfaces(5).
 
 source /etc/network/interfaces.d/*
 
