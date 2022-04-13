@@ -38,4 +38,5 @@ dns-nameservers 8.8.8.8 8.8.4.4
 ```
 
 Referências:  
+https://www.server-world.info/en/note?os=Debian_11&p=initial_conf&f=3  
 https://www.lest5.com.br/lest/index.php/redes/comandos-redes/configurar-uma-rede-linux-via-terminal
