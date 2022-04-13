@@ -1,3 +1,6 @@
+# Arquivo de exemplo de configuração de interface de rede
+
+Edite o arquivo `/etc/network/interfaces`
 ```
 # This file describes the network interfaces available on your system
 # and how to activate them. For more information, see interfaces(5).
