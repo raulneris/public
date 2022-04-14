@@ -32,9 +32,12 @@ netmask 255.255.255.0
 
 # default gateway
 gateway 192.168.196.2
+```
 
-# name server
-dns-nameservers 8.8.8.8 8.8.4.4
+Edite o arquivo `/etc/resolv.conf` e adeque-o ao seu ambiente.
+
+```
+
 ```
 
 Referências:  
