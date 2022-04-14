@@ -37,7 +37,7 @@ gateway 192.168.196.2
 Edite o arquivo `/etc/resolv.conf` e adeque-o ao seu ambiente.
 
 ```
-
+nameserver 8.8.8.8 8.8.4.4
 ```
 
 Referências:  
