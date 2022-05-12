@@ -52,8 +52,7 @@ w32tm /monitor /domain:seudominio
 w32tm /TZ
 ```
 
-**ATENÇÃO!**
-
+**ATENÇÃO!**  
 Eu tive um problema em um controlador de domínio, onde os procedimentos acima não permitiam realizar a configuração para apontar um servidor NTP externo. Caso você também enfrente esse problema, execute os comandos abaixo e posteriormente refaça os passos anteriores.
 
 ```
