@@ -54,6 +54,8 @@ w32tm /TZ
 
 **ATENÇÃO!**
 
+Eu tive um problema em um controlador de domínio, onde os procedimentos acima não permitiam realizar a configuração para apontar um servidor NTP externo. Caso você também enfrente esse problema, execute os comandos abaixo e posteriormente refaça os passos anteriores.
+
 ```
 w32tm /unregister
 net stop w32time
@@ -63,8 +65,8 @@ w32tm /config /syncfromflags:domhier /update
 net stop w32time
 net start w32time
 then check
-w32tm /query /source
-w32tm /query /configuration
 ```
 
 Referência: https://social.technet.microsoft.com/wiki/pt-br/contents/articles/35460.comandos-uteis-para-sincronizacao-de-horario-no-windows-server-2012-r2-e-outras-versoes-do-windows.aspx
+
+https://docs.microsoft.com/en-us/answers/questions/639497/can-not-change-source-time-from-local-cmos-clock-o.html
