@@ -67,8 +67,7 @@ net start w32time
 then check
 ```
 
-Referências:
-
+**Referências:**  
 https://social.technet.microsoft.com/wiki/pt-br/contents/articles/35460.comandos-uteis-para-sincronizacao-de-horario-no-windows-server-2012-r2-e-outras-versoes-do-windows.aspx
 
 https://docs.microsoft.com/en-us/answers/questions/639497/can-not-change-source-time-from-local-cmos-clock-o.html
