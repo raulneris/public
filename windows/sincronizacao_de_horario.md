@@ -52,4 +52,19 @@ w32tm /monitor /domain:seudominio
 w32tm /TZ
 ```
 
+**ATENÇÃO!**
+
+```
+w32tm /unregister
+net stop w32time
+w32tm /register
+net start w32time
+w32tm /config /syncfromflags:domhier /update
+net stop w32time
+net start w32time
+then check
+w32tm /query /source
+w32tm /query /configuration
+```
+
 Referência: https://social.technet.microsoft.com/wiki/pt-br/contents/articles/35460.comandos-uteis-para-sincronizacao-de-horario-no-windows-server-2012-r2-e-outras-versoes-do-windows.aspx
