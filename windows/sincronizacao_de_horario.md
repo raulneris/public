@@ -25,7 +25,7 @@ net time \\server /set /yes
 
 ```
 net stop w32time
-w32tm /config /manualpeerlist:a.ntp.br,b.ntp.br,c.ntp.br,0x8, /syncfromflags:manual
+w32tm /config /manualpeerlist:pool.ntp.br,0x8, /syncfromflags:manual
 net start w32time
 ```
 
